@@ -1,0 +1,74 @@
+.carousel-container {
+	margin: 0 auto;
+	overflow: hidden;
+	width: 600px;
+
+	i {
+		position: relative;
+		cursor: pointer;
+		top: 225px;
+		z-index: 10;
+		color: #fff;
+		text-shadow: #000 0px 0px 1px,   #000 0px 0px 1px,   #000 0px 0px 1px,
+             			#000 0px 0px 1px,   #000 0px 0px 1px,   #000 0px 0px 1px;
+		
+		&.fa-caret-right {
+			left: 570px;
+		}
+
+		&.fa-caret-left {
+			left: 20px;
+		}
+	}
+
+	ul {
+		&.content {
+			position: relative;
+			width: 3500px;
+			padding-left: 0;
+			left: 0;
+
+			li {
+				color: #fff;
+				text-shadow: #000 0px 0px 1px,   #000 0px 0px 1px,   #000 0px 0px 1px,
+             #000 0px 0px 1px,   #000 0px 0px 1px,   #000 0px 0px 1px;
+				text-align: center;
+				display: inline-block;
+				list-style-type: none;
+				padding: 0;
+				margin: 0;
+				width: 600px;
+				height: 400px;
+				background-size: cover;
+				background-position: center center;
+				background-repeat: no-repeat;
+
+				h3 {
+					margin-top: 150px;
+					font-size: 2rem;
+				}
+
+				&#cs-item-1 {
+					background-image: url('../img/apple-computer-decor.jpg');
+				}
+
+				&#cs-item-2 {
+					background-image: url('../img/apple-device-blur-blurry.jpg');
+				}
+
+				&#cs-item-3 {
+					background-image: url('../img/art-artist-artistic.jpg');
+				}
+
+				&#cs-item-4 {
+					background-image: url('../img/blur-cellphone-close-up.jpg');
+				}
+
+				&#cs-item-5 {
+					background-image: url('../img/business-close-up-communication.jpg');
+				}
+			}
+		}
+	}
+
+}
